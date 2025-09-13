@@ -165,6 +165,26 @@ body {
 .banner h2 { font-size: 2rem; }
 .banner p { margin: 10px 0; }
 
+/* Promo Cards Section */
+.page-ideas {
+  display: flex;
+  justify-content: center;
+
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+
+.promo-card:hover {
+  transform: translateY(-5px);
+}
+
+.promo-card img {
+  width: 350px;
+  height: 450px;
+  margin: 0;
+}
+
 /* Contact */
 .contact {
   padding: 60px 20px;
